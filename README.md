@@ -24,3 +24,10 @@ python app.py
 
 Mở trình duyệt: http://127.0.0.1:5000
 
+
+Bước 2: Cấp quyền chạy cho AppImage
+cd ~/Downloads
+chmod +x Cursor-*.AppImage
+Bước 4: Mở thư mục dự án với Cursor
+./Cursor-*.AppImage --no-sandbox </đường/dẫn/đến/qr_web>
+
